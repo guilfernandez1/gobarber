@@ -6,13 +6,16 @@ class User {
   id: string;
 
   @Column()
-  name:string;
+  name: string;
 
   @Column()
-  email:string;
+  email: string;
 
   @Column()
-  password:string;
+  password: string;
+
+  @Column()
+  avatar: string;
 
   @CreateDateColumn()
   created_at: Date;
